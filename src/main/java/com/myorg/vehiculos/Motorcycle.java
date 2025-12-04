@@ -26,4 +26,8 @@ public class Motorcycle extends Vehicle {
     public void showFairing() {
         System.out.println("La moto tiene carenado: " + (hasFairing ? "sí" : "no"));
     }
+    public void revEngine() {
+    System.out.println("Acelerando motor de la moto...");
+}
+
 }
