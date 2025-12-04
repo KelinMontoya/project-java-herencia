@@ -11,6 +11,7 @@ public class Main {
         System.out.println(v1.getDescription());
         v1.start();
         v1.stop();
+        
 
         System.out.println();
 
@@ -26,5 +27,9 @@ public class Main {
             ((Motorcycle) v2).doWheelie();
             ((Motorcycle) v2).showFairing();
         }
+
+        v1.getEngine().showSpecs();
+        v2.getEngine().showSpecs();
     }
+    
 }
