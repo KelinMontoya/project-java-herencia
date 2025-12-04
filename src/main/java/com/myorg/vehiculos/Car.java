@@ -26,4 +26,8 @@ public class Car extends Vehicle {
     public void showDoors() {
         System.out.println("El carro tiene " + doors + " puertas.");
     }
+    public void lockDoors() {
+    System.out.println("Puertas bloqueadas.");
+}
+
 }
