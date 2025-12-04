@@ -24,4 +24,7 @@ public class Vehicle {
     public void stop() {
         System.out.println("El vehículo se ha detenido.");
     }
+    public void showBrand() {
+    System.out.println("Marca: " + brand);
+}
 }
