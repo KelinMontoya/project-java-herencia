@@ -17,6 +17,10 @@ public class Engine {
         return horsepower;
     }
 
+    public void showSpecs() {
+    System.out.println("Motor tipo " + type + " con " + horsepower + " HP");
+}
+
     @Override
     public String toString() {
         return type + " " + horsepower + "HP";
