@@ -4,6 +4,7 @@ public class Engine {
     private String type;
     private int horsepower;
 
+
     public Engine(String type, int horsepower) {
         this.type = type;
         this.horsepower = horsepower;
@@ -17,9 +18,10 @@ public class Engine {
         return horsepower;
     }
 
-    public void showSpecs() {
+   public void showSpecs() {
     System.out.println("Motor tipo " + type + " con " + horsepower + " HP");
 }
+
 
     @Override
     public String toString() {

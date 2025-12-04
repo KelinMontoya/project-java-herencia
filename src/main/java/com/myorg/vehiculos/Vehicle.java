@@ -6,6 +6,8 @@ public class Vehicle {
     protected int year;
     protected Engine engine;
 
+    public Engine getEngine() { return engine; }
+
     public Vehicle(String brand, String model, int year, Engine engine) {
         this.brand = brand;
         this.model = model;
